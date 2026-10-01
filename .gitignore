@@ -1,0 +1,2 @@
+# Ignores anything besides .c files
+*.!c
