@@ -3,10 +3,25 @@
 
 int main()
 {
-    int alsohatar = 2020;
-    int felsohatar = 2030;
+    int alsohatar = 0;
+    int felsohatar = 0;
     int i = 0;
     int szokoevekSzama = 0;
+
+    // bekeres a felhasználótól
+    printf("Kérem adja meg az alsó határt: ");
+    if (scanf("%d", &alsohatar) != 1)
+    {
+        printf("Hibás bemenet!\n");
+        return 1;
+    }
+    
+    printf("Kérem adja meg a felső határt: ");
+    if (scanf("%d", &felsohatar) != 1)
+    {
+        printf("Hibás bemenet!\n");
+        return 1;
+    }
 
     i = alsohatar;
 
